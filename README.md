@@ -15,4 +15,5 @@ Lufthansa dev docs:
 
 #### Headers
 `Authorization: Bearer k9ccs8f33z63839urycsh2k9`
+
 `Accept: application/json`
