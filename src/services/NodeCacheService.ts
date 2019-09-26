@@ -9,13 +9,13 @@ export class NodeCacheService implements ICacheService {
     }
 
     public async add(key: string, data: string, expireInSeconds: number): Promise<any> {
-        const success = await this._nodeCache.set( "myKey", data, 14400 );
+        const success = await this._nodeCache.set(key, data, 14400 );
         return success;
     }
 
     public async get(key: string): Promise<object | null> {
         let result = null;
-        result = await this._nodeCache.get( "myKey" );
+        result = await this._nodeCache.get(key);
         return result;
     }
 }

@@ -29,8 +29,8 @@ export class RedisService implements ICacheService {
 
                 if (!cachedResult) {
                     Logger.info("Storing object in cache...");
-                    await this.redisClient.set("a", JSON.stringify(data));
-                    await this.redisClient.expire("a", expireInSeconds);
+                    await this.redisClient.set(key, JSON.stringify(data));
+                    await this.redisClient.expire(key, expireInSeconds);
                     Logger.info("Object cached.");
                 }
             } catch (ex) {
@@ -42,7 +42,7 @@ export class RedisService implements ICacheService {
     public async get(key: string): Promise<object | null> {
        if (this.redisClient) {
             try {
-                return await this.redisClient.get("a");
+                return await this.redisClient.get(key);
 
             } catch (ex) {
                 Logger.error("Error retrieving from the cache:", ex);
