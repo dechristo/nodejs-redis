@@ -1,0 +1,54 @@
+{
+  "name": "nodejs-redis",
+  "version": "1.0.0",
+  "description": "Implementation of cache layer with redis.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/server.js",
+    "lint": "tslint --project",
+    "test": "node_modules/mocha/bin/mocha tests/**/*.js --require @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dechristo/nodejs-redis.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cache",
+    "redis",
+    "caching",
+    "mocha",
+    "tdd"
+  ],
+  "author": "Luiz Eduardo de Christo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dechristo/nodejs-redis/issues"
+  },
+  "homepage": "https://github.com/dechristo/nodejs-redis#readme",
+  "dependencies": {
+    "@types/express": "^4.17.1",
+    "@types/morgan": "^1.7.37",
+    "async-redis": "^1.1.7",
+    "express": "^4.17.1",
+    "lru": "^3.1.0",
+    "morgan": "^1.9.1",
+    "node-cache": "^4.2.1",
+    "redis": "^2.8.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/register": "^7.6.2",
+    "assert": "^2.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "rimraf": "^3.0.0",
+    "sinon": "^7.5.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}

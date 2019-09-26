@@ -1,0 +1,1703 @@
+{
+    "ScheduleResource": {
+      "Schedule": [
+        {
+          "TotalJourney": {
+            "Duration": "PT14H55M"
+          },
+          "Flight": [
+            {
+              "Departure": {
+                "AirportCode": "TXL",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T06:30"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "MUC",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T07:35"
+                },
+                "Terminal": {
+                  "Name": 2
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 2053
+              },
+              "Equipment": {
+                "AircraftCode": 321
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 123456,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-27"
+                }
+              }
+            },
+            {
+              "Departure": {
+                "AirportCode": "MUC",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T12:25"
+                },
+                "Terminal": {
+                  "Name": 2
+                }
+              },
+              "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T15:25"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 410
+              },
+              "Equipment": {
+                "AircraftCode": 346,
+                "OnBoardEquipment": {
+                  "InflightEntertainment": true,
+                  "Compartment": [
+                    {
+                      "ClassCode": "F",
+                      "ClassDesc": "FirstClass",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "C",
+                      "ClassDesc": "BusinessClass",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "E",
+                      "ClassDesc": "PremiumEconomy",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "Y",
+                      "ClassDesc": "Economy",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    }
+                  ]
+                }
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 123456,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-27"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "TotalJourney": {
+            "Duration": "PT11H55M"
+          },
+          "Flight": [
+            {
+              "Departure": {
+                "AirportCode": "TXL",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T06:40"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "ZRH",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T08:10"
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LX",
+                "FlightNumber": 963
+              },
+              "Equipment": {
+                "AircraftCode": "32B"
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 5,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-20"
+                }
+              }
+            },
+            {
+              "Departure": {
+                "AirportCode": "ZRH",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T09:50"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T12:35"
+                },
+                "Terminal": {
+                  "Name": 4
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LX",
+                "FlightNumber": 16
+              },
+              "Equipment": {
+                "AircraftCode": 333,
+                "OnBoardEquipment": {
+                  "InflightEntertainment": true,
+                  "Compartment": [
+                    {
+                      "ClassCode": "F",
+                      "ClassDesc": "FirstClass",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "C",
+                      "ClassDesc": "BusinessClass",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "E",
+                      "ClassDesc": "PremiumEconomy",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "Y",
+                      "ClassDesc": "Economy",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    }
+                  ]
+                }
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 5,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-20"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "TotalJourney": {
+            "Duration": "PT11H55M"
+          },
+          "Flight": [
+            {
+              "Departure": {
+                "AirportCode": "TXL",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T06:40"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "ZRH",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T08:10"
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 5834
+              },
+              "OperatingCarrier": {
+                "AirlineID": "LX"
+              },
+              "Equipment": {
+                "AircraftCode": "32B"
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 5,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-20"
+                }
+              }
+            },
+            {
+              "Departure": {
+                "AirportCode": "ZRH",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T09:50"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T12:35"
+                },
+                "Terminal": {
+                  "Name": 4
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LX",
+                "FlightNumber": 16
+              },
+              "Equipment": {
+                "AircraftCode": 333,
+                "OnBoardEquipment": {
+                  "InflightEntertainment": true,
+                  "Compartment": [
+                    {
+                      "ClassCode": "F",
+                      "ClassDesc": "FirstClass",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "C",
+                      "ClassDesc": "BusinessClass",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "E",
+                      "ClassDesc": "PremiumEconomy",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "Y",
+                      "ClassDesc": "Economy",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    }
+                  ]
+                }
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 5,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-20"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "TotalJourney": {
+            "Duration": "PT15H5M"
+          },
+          "Flight": [
+            {
+              "Departure": {
+                "AirportCode": "TXL",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T06:40"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "ZRH",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T08:10"
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 5834
+              },
+              "OperatingCarrier": {
+                "AirlineID": "LX"
+              },
+              "Equipment": {
+                "AircraftCode": "32B"
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 5,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-20"
+                }
+              }
+            },
+            {
+              "Departure": {
+                "AirportCode": "ZRH",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T12:55"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T15:45"
+                },
+                "Terminal": {
+                  "Name": 4
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LX",
+                "FlightNumber": 14
+              },
+              "Equipment": {
+                "AircraftCode": 333,
+                "OnBoardEquipment": {
+                  "InflightEntertainment": true,
+                  "Compartment": [
+                    {
+                      "ClassCode": "F",
+                      "ClassDesc": "FirstClass",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "C",
+                      "ClassDesc": "BusinessClass",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "E",
+                      "ClassDesc": "PremiumEconomy",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "Y",
+                      "ClassDesc": "Economy",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    }
+                  ]
+                }
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 5,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-20"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "TotalJourney": {
+            "Duration": "PT15H5M"
+          },
+          "Flight": [
+            {
+              "Departure": {
+                "AirportCode": "TXL",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T06:40"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "ZRH",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T08:10"
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LX",
+                "FlightNumber": 963
+              },
+              "Equipment": {
+                "AircraftCode": "32B"
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 5,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-20"
+                }
+              }
+            },
+            {
+              "Departure": {
+                "AirportCode": "ZRH",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T12:55"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T15:45"
+                },
+                "Terminal": {
+                  "Name": 4
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LX",
+                "FlightNumber": 14
+              },
+              "Equipment": {
+                "AircraftCode": 333,
+                "OnBoardEquipment": {
+                  "InflightEntertainment": true,
+                  "Compartment": [
+                    {
+                      "ClassCode": "F",
+                      "ClassDesc": "FirstClass",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "C",
+                      "ClassDesc": "BusinessClass",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "E",
+                      "ClassDesc": "PremiumEconomy",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "Y",
+                      "ClassDesc": "Economy",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    }
+                  ]
+                }
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 5,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-20"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "TotalJourney": {
+            "Duration": "PT12H55M"
+          },
+          "Flight": [
+            {
+              "Departure": {
+                "AirportCode": "TXL",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T06:45"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T07:55"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 173
+              },
+              "Equipment": {
+                "AircraftCode": 321
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 1234567,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-27"
+                }
+              }
+            },
+            {
+              "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T11:00"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T13:40"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 400
+              },
+              "Equipment": {
+                "AircraftCode": 388,
+                "OnBoardEquipment": {
+                  "InflightEntertainment": true,
+                  "Compartment": [
+                    {
+                      "ClassCode": "F",
+                      "ClassDesc": "FirstClass",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "C",
+                      "ClassDesc": "BusinessClass",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "E",
+                      "ClassDesc": "PremiumEconomy",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "Y",
+                      "ClassDesc": "Economy",
+                      "FlyNet": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    }
+                  ]
+                }
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 1234567,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-27"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "TotalJourney": {
+            "Duration": "PT19H10M"
+          },
+          "Flight": [
+            {
+              "Departure": {
+                "AirportCode": "TXL",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T06:45"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T07:55"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 173
+              },
+              "Equipment": {
+                "AircraftCode": 321
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 1234567,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-27"
+                }
+              }
+            },
+            {
+              "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T17:10"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T19:55"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 404
+              },
+              "Equipment": {
+                "AircraftCode": "74H",
+                "OnBoardEquipment": {
+                  "InflightEntertainment": true,
+                  "Compartment": [
+                    {
+                      "ClassCode": "F",
+                      "ClassDesc": "FirstClass",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "C",
+                      "ClassDesc": "BusinessClass",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "E",
+                      "ClassDesc": "PremiumEconomy",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "Y",
+                      "ClassDesc": "Economy",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    }
+                  ]
+                }
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 1234567,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-27"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "TotalJourney": {
+            "Duration": "PT12H"
+          },
+          "Flight": [
+            {
+              "Departure": {
+                "AirportCode": "TXL",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T06:55"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "BRU",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T08:15"
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "SN",
+                "FlightNumber": 2592
+              },
+              "Equipment": {
+                "AircraftCode": 319
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 1234567,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-27"
+                }
+              }
+            },
+            {
+              "Departure": {
+                "AirportCode": "BRU",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T10:35"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T12:55"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "SN",
+                "FlightNumber": 501
+              },
+              "Equipment": {
+                "AircraftCode": 333,
+                "OnBoardEquipment": {
+                  "InflightEntertainment": true,
+                  "Compartment": [
+                    {
+                      "ClassCode": "F",
+                      "ClassDesc": "FirstClass",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "C",
+                      "ClassDesc": "BusinessClass",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "E",
+                      "ClassDesc": "PremiumEconomy",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "Y",
+                      "ClassDesc": "Economy",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    }
+                  ]
+                }
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 1234567,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-27"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "TotalJourney": {
+            "Duration": "PT12H"
+          },
+          "Flight": [
+            {
+              "Departure": {
+                "AirportCode": "TXL",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T06:55"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "BRU",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T08:15"
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 5572
+              },
+              "OperatingCarrier": {
+                "AirlineID": "SN"
+              },
+              "Equipment": {
+                "AircraftCode": 319
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 1234567,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-27"
+                }
+              }
+            },
+            {
+              "Departure": {
+                "AirportCode": "BRU",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T10:35"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T12:55"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 5620
+              },
+              "OperatingCarrier": {
+                "AirlineID": "SN"
+              },
+              "Equipment": {
+                "AircraftCode": 333,
+                "OnBoardEquipment": {
+                  "InflightEntertainment": true,
+                  "Compartment": [
+                    {
+                      "ClassCode": "F",
+                      "ClassDesc": "FirstClass",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "C",
+                      "ClassDesc": "BusinessClass",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "E",
+                      "ClassDesc": "PremiumEconomy",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "Y",
+                      "ClassDesc": "Economy",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    }
+                  ]
+                }
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 1234567,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-27"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "TotalJourney": {
+            "Duration": "PT13H15M"
+          },
+          "Flight": [
+            {
+              "Departure": {
+                "AirportCode": "TXL",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T07:00"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "VIE",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T08:15"
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "OS",
+                "FlightNumber": 240
+              },
+              "Equipment": {
+                "AircraftCode": 320
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 1256,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-27"
+                }
+              }
+            },
+            {
+              "Departure": {
+                "AirportCode": "VIE",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T10:45"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T14:15"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "OS",
+                "FlightNumber": 87
+              },
+              "Equipment": {
+                "AircraftCode": "76W"
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 1256,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-27"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "TotalJourney": {
+            "Duration": "PT14H25M"
+          },
+          "Flight": [
+            {
+              "Departure": {
+                "AirportCode": "TXL",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T07:00"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "MUC",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T08:10"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "EW",
+                "FlightNumber": 8170
+              },
+              "OperatingCarrier": {
+                "AirlineID": "4U"
+              },
+              "Equipment": {
+                "AircraftCode": 319
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 34567,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-27"
+                }
+              }
+            },
+            {
+              "Departure": {
+                "AirportCode": "MUC",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T12:25"
+                },
+                "Terminal": {
+                  "Name": 2
+                }
+              },
+              "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T15:25"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 410
+              },
+              "Equipment": {
+                "AircraftCode": 346,
+                "OnBoardEquipment": {
+                  "InflightEntertainment": true,
+                  "Compartment": [
+                    {
+                      "ClassCode": "F",
+                      "ClassDesc": "FirstClass",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "C",
+                      "ClassDesc": "BusinessClass",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "E",
+                      "ClassDesc": "PremiumEconomy",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    },
+                    {
+                      "ClassCode": "Y",
+                      "ClassDesc": "Economy",
+                      "FlyNet": true,
+                      "SeatPower": true,
+                      "Usb": true,
+                      "LiveTv": true
+                    }
+                  ]
+                }
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 34567,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-27"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "TotalJourney": {
+            "Duration": "PT12H25M"
+          },
+          "Flight": [
+            {
+              "Departure": {
+                "AirportCode": "TXL",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T07:15"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T08:25"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 45
+              },
+              "Equipment": {
+                "AircraftCode": "32N"
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 5,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-20"
+                }
+              }
+            },
+            {
+              "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T11:00"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T13:40"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 400
+              },
+              "Equipment": {
+                "AircraftCode": 388
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 5,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-20"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "TotalJourney": {
+            "Duration": "PT18H40M"
+          },
+          "Flight": [
+            {
+              "Departure": {
+                "AirportCode": "TXL",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T07:15"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T08:25"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 45
+              },
+              "Equipment": {
+                "AircraftCode": "32N"
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 5,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-20"
+                }
+              }
+            },
+            {
+              "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T17:10"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T19:55"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 404
+              },
+              "Equipment": {
+                "AircraftCode": "74H"
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 5,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-20"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "TotalJourney": {
+            "Duration": "PT13H55M"
+          },
+          "Flight": [
+            {
+              "Departure": {
+                "AirportCode": "TXL",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T07:30"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "MUC",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T08:35"
+                },
+                "Terminal": {
+                  "Name": 2
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 2055
+              },
+              "Equipment": {
+                "AircraftCode": 319
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 5,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-20"
+                }
+              }
+            },
+            {
+              "Departure": {
+                "AirportCode": "MUC",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T12:25"
+                },
+                "Terminal": {
+                  "Name": 2
+                }
+              },
+              "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T15:25"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 410
+              },
+              "Equipment": {
+                "AircraftCode": 346
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 5,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-20"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "TotalJourney": {
+            "Duration": "PT11H55M"
+          },
+          "Flight": [
+            {
+              "Departure": {
+                "AirportCode": "TXL",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T07:45"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T08:55"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 175
+              },
+              "Equipment": {
+                "AircraftCode": 321
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 123456,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-27"
+                }
+              }
+            },
+            {
+              "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T11:00"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T13:40"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 400
+              },
+              "Equipment": {
+                "AircraftCode": 388
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 123456,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-27"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "TotalJourney": {
+            "Duration": "PT18H10M"
+          },
+          "Flight": [
+            {
+              "Departure": {
+                "AirportCode": "TXL",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T07:45"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T08:55"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 175
+              },
+              "Equipment": {
+                "AircraftCode": 321
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 123456,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-27"
+                }
+              }
+            },
+            {
+              "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T17:10"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T19:55"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 404
+              },
+              "Equipment": {
+                "AircraftCode": "74H"
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 123456,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-27"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "TotalJourney": {
+            "Duration": "PT11H25M"
+          },
+          "Flight": [
+            {
+              "Departure": {
+                "AirportCode": "TXL",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T08:15"
+                }
+              },
+              "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T09:25"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 179
+              },
+              "Equipment": {
+                "AircraftCode": "32N"
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 25,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-24"
+                }
+              }
+            },
+            {
+              "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T11:00"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                  "DateTime": "2019-09-20T13:40"
+                },
+                "Terminal": {
+                  "Name": 1
+                }
+              },
+              "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": 400
+              },
+              "Equipment": {
+                "AircraftCode": 388
+              },
+              "Details": {
+                "Stops": {
+                  "StopQuantity": 0
+                },
+                "DaysOfOperation": 25,
+                "DatePeriod": {
+                  "Effective": "2019-09-20",
+                  "Expiration": "2019-09-24"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "Meta": {
+        "@Version": "1.0.0",
+        "Link": [
+          {
+            "@Href": "https:\/\/api.lufthansa.com\/v1\/operations\/schedules\/TXL\/JFK\/2019-09-20",
+            "@Rel": "self"
+          },
+          {
+            "@Href": "https:\/\/api.lufthansa.com\/v1\/operations\/schedules\/TXL\/JFK\/2019-09-19?offset=0&limit=20",
+            "@Rel": "previousRange"
+          },
+          {
+            "@Href": "https:\/\/api.lufthansa.com\/v1\/operations\/schedules\/TXL\/JFK\/2019-09-20?offset=20&limit=20",
+            "@Rel": "next"
+          },
+          {
+            "@Href": "https:\/\/api.lufthansa.com\/v1\/operations\/schedules\/TXL\/JFK\/2019-09-20?offset=0&limit=20",
+            "@Rel": "nextRange"
+          },
+          {
+            "@Href": "https:\/\/api.lufthansa.com\/v1\/mds-references\/airports\/{airportCode}",
+            "@Rel": "related"
+          },
+          {
+            "@Href": "https:\/\/api.lufthansa.com\/v1\/mds-references\/aircraft\/{aircraftCode}",
+            "@Rel": "related"
+          }
+        ]
+      }
+    }
+  }
