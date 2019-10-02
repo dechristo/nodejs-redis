@@ -1,3 +1,3 @@
 export interface IFlightService {
-    getFlightSchedules(): Promise<any>;
+    getFlightSchedules(date: string): Promise<any>;
 }

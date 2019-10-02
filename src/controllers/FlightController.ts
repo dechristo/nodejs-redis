@@ -11,7 +11,7 @@ export class FlightController {
         this.flightService = new FlightService();
     }
     public async getFlightSchedules(req: Request, res: Response): Promise<any> {
-      const response = await this.flightService.getFlightSchedules();
+      const response = await this.flightService.getFlightSchedules("2019-10-02");
       res.json(response);
     }
 }

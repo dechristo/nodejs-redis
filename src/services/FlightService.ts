@@ -7,16 +7,16 @@ const request = require("request-promise");
 
 export class FlightService implements IFlightService {
     private cacheService: ICacheService;
-
+    private readonly FLIGHT_SCHEDULE_URL = "api.lufthansa.com/v1/operations/schedules/TXL/JFK/";
     constructor() {
         this.cacheService = new NodeCacheService();
     }
 
-    public async getFlightSchedules(): Promise<any> {
+    public async getFlightSchedules(date: string): Promise<any> {
         let cachedResult: any;
 
         try {
-            cachedResult = await this.cacheService.get("a");
+            cachedResult = await this.cacheService.get(this.FLIGHT_SCHEDULE_URL + date);
         } catch (ex) {
           Logger.error("Error retrieving from cache.", ex);
         }
@@ -28,7 +28,7 @@ export class FlightService implements IFlightService {
 
         let result: {};
         const options = {
-            url: "api.lufthansa.com/v1/operations/schedules/TXL/JFK/2019-09-20",
+            url: this.FLIGHT_SCHEDULE_URL + date,
             headers: {
                 Authorization: "Bearer 4sbx9jvhbtjtnaawypsrpcm4",
                 Accept: "application/json"
@@ -36,7 +36,7 @@ export class FlightService implements IFlightService {
         };
 
         result = await request.get(options);
-        await this.cacheService.add("a", JSON.stringify(result), 10);
+        await this.cacheService.add(this.FLIGHT_SCHEDULE_URL + date, JSON.stringify(result), 10);
         return result;
     }
 }
